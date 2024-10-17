@@ -337,26 +337,76 @@ const chapters = {
                 ],
                 correct: 0
             },
-            {
-                question: "14. What is orographic precipitation?",
-                choices: [
-                    "A) Rainfall that occurs from evaporation",
-                    "B) Rain caused by air rising due to heating",
-                    "C) Precipitation formed by air being mechanically lifted over mountains",
-                    "D) Rain caused by collision of warm and cold fronts"
-                ],
-                correct: 2
-            },
-            {
-                question: "15. What is convective precipitation?",
-                choices: [
-                    "A) Rainfall that occurs when air is cooled below the saturation point",
-                    "B) Precipitation that happens when warm, light air rises in colder denser surroundings",
-                    "C) Rain caused by air rising over a mountain",
-                    "D) Precipitation formed by condensation alone"
-                ],
-                correct: 1
-            }
+        {
+    question: "14. What is orographic precipitation?",
+    choices: [
+        "A) Rainfall that occurs from evaporation",
+        "B) Rain caused by air rising due to heating",
+        "C) Precipitation formed by air being mechanically lifted over mountains",
+        "D) Rain caused by collision of warm and cold fronts"
+    ],
+    correct: 2
+},
+{
+    question: "15. What is convective precipitation?",
+    choices: [
+        "A) Rainfall that occurs when air is cooled below the saturation point",
+        "B) Precipitation that happens when warm, light air rises in colder denser surroundings",
+        "C) Rain caused by air rising over a mountain",
+        "D) Precipitation formed by condensation alone"
+    ],
+    correct: 1
+},
+{
+    question: "16. How does rainwater seepage affect buildings?",
+    choices: [
+        "A) Strengthens the internal structure",
+        "B) Causes corrosion of steel rods, weakening structural strength",
+        "C) Has no significant effect on building materials",
+        "D) Improves the quality of concrete"
+    ],
+    correct: 1
+},
+{
+    question: "17. Which method is recommended for preventing water seepage in buildings?",
+    choices: [
+        "A) Using porous materials",
+        "B) Adding fungicides to the paint",
+        "C) Leaving cracks open for water flow",
+        "D) Avoiding waterproofing"
+    ],
+    correct: 1
+},
+{
+    question: "18. What is one effect of stagnant water on building rooftops?",
+    choices: [
+        "A) It strengthens the structure",
+        "B) It evaporates before causing damage",
+        "C) It seeps through cracks and damages the internal structure",
+        "D) It improves waterproofing"
+    ],
+    correct: 2
+},
+{
+    question: "19. What modern waterproofing method can be used to prevent rain damage?",
+    choices: [
+        "A) Installing thicker concrete layers",
+        "B) Using liquid brush-applied solutions, like bitumen-based or acrylic-based compounds",
+        "C) Avoiding chemical treatment",
+        "D) Letting natural ventilation handle the moisture"
+    ],
+    correct: 1
+},
+{
+    question: "20. How can rain lead to landslides in mountainous regions?",
+    choices: [
+        "A) It dries out the soil",
+        "B) It causes the soil to become more compact",
+        "C) Acid rain weakens rock layers, causing them to collapse",
+        "D) Rain reduces the risk of landslides"
+    ],
+    correct: 2
+}
         ]
     },
     3: {
