@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive Hydrology Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1 id="chapter-title">Choose a Chapter, or Choose mo ako <3</h1>
+        <div id="chapter-selection">
+            <button class="chapter-btn" onclick="loadChapter(1)">Introduction to Hydrology</button>
+            <button class="chapter-btn" onclick="loadChapter(2)">Precipitation</button>
+            <button class="chapter-btn" onclick="loadChapter(3)">Rainfall Characteristics</button>
+        </div>
+
+        <h2 id="category-label" class="hidden"></h2>
+        <div id="flashcard" class="hidden">
+            <div id="question-number"></div>
+            <div id="question"></div>
+            <div id="choices">
+                <button class="choice" onclick="checkAnswer(0)">A</button>
+                <button class="choice" onclick="checkAnswer(1)">B</button>
+                <button class="choice" onclick="checkAnswer(2)">C</button>
+                <button class="choice" onclick="checkAnswer(3)">D</button>
+            </div>
+        </div>
+
+        <div id="result"></div>
+        <div class="button-container hidden">
+            <button id="prev-btn" onclick="prevQuestion()">Previous</button>
+            <button id="next-btn" onclick="nextQuestion()">Next Question</button>
+        </div>
+        <div class="go-to-container hidden">
+            <input type="number" id="go-to-input" min="1" max="50" placeholder="Enter question number">
+            <button id="go-btn" onclick="goToQuestion()">Go</button>
+        </div>
+
+        <button id="go-back-btn" class="hidden" onclick="goBack()">Go Back, or sakin ka nalang pumunta</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
